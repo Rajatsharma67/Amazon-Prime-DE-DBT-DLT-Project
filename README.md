@@ -1,4 +1,4 @@
-Amazon-Prime-DE-DBT-DLT-Project
+[Amazon-Prime-DE-DBT-DLT-Project](https://github.com/Rajatsharma67/Amazon-Prime-DE-DBT-DLT-Project)
 
 Amazon Prime Data Engineering Pipeline (DLT + dbt + PostgreSQL)
 
