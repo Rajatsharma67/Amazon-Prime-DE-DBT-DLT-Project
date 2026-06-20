@@ -6,7 +6,7 @@ amazon_prime_de_dbt_dlt_project:
       type: postgres
       host: 127.0.0.1
       user: postgres
-      pass: admin123
+      pass: xxxxxxxx
       port: 5432
       dbname: RPTDB
       schema: analytics_raw
@@ -16,7 +16,7 @@ amazon_prime_de_dbt_dlt_project:
       type: postgres
       host: 127.0.0.1
       user: postgres
-      pass: admin123
+      pass: xxxxxxxx
       port: 5432
       dbname: RPTDB
       schema: analytics
