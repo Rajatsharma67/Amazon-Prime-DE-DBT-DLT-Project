@@ -1,4 +1,6 @@
-#Amazon Prime Data Engineering Pipeline (DLT + dbt + PostgreSQL)
+Amazon-Prime-DE-DBT-DLT-Project
+
+Amazon Prime Data Engineering Pipeline (DLT + dbt + PostgreSQL)
 
 Built an end-to-end data engineering pipeline to ingest, transform, and model Amazon Prime dataset using modern ELT tools and a warehouse-centric architecture.
 
