@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: analytics_raw
+    schema: analytics_raw
+    tables:
+      - name: amazon_prime_raw

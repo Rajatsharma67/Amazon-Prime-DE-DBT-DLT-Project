@@ -1,0 +1,29 @@
+[0m16:58:54.384066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DCECBC530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DCFDBEEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DCFD82E10>]}
+
+
+============================== 16:58:54.532160 | dbc5ca03-a489-4c53-be99-15a681beb008 ==============================
+[0m16:58:54.532160 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:58:54.532160 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\itssa\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:59:44.332303 [debug] [MainThread]: Starter project path: C:\Users\itssa\Downloads\Amazon-Prime-DE-DBT-DLT-Project\.venv\Lib\site-packages\dbt\include\starter_project
+[0m16:59:44.390215 [info ] [MainThread]: 
+Your new dbt project "amazon_prime_de_dbt_dlt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:59:44.391193 [info ] [MainThread]: Setting up your profile.
+[0m17:02:09.685474 [info ] [MainThread]: Profile amazon_prime_de_dbt_dlt_project written to C:\Users\itssa\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:02:09.688686 [debug] [MainThread]: Command `dbt init` succeeded at 17:02:09.687489 after 195.63 seconds
+[0m17:02:09.689696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DCFDBEEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DCFFE3C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026DCEA7BF80>]}
+[0m17:02:09.691106 [debug] [MainThread]: Flushing usage events
+[0m17:02:11.346323 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,23 @@
+amazon_prime_de_dbt_dlt_project:
+  target: dev
+
+  outputs:
+    dev:
+      type: postgres
+      host: 127.0.0.1
+      user: postgres
+      pass: admin123
+      port: 5432
+      dbname: RPTDB
+      schema: analytics_raw
+      threads: 1
+
+    prod:
+      type: postgres
+      host: 127.0.0.1
+      user: postgres
+      pass: admin123
+      port: 5432
+      dbname: RPTDB
+      schema: analytics
+      threads: 1

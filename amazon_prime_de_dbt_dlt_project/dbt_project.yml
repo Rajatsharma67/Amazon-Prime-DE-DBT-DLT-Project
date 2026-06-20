@@ -1,0 +1,21 @@
+
+name: 'amazon_prime_de_dbt_dlt_project'
+version: '1.0.0'
+
+profile: 'amazon_prime_de_dbt_dlt_project'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+models:
+  amazon_prime_de_dbt_dlt_project:
+    target_layer:
+      +materialized: table
